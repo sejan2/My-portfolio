@@ -55,4 +55,14 @@ border-radius: 30px;
 .navs{
     background-color:'turquoise'
 }
+@media (max-width: 500px){
+    .nav-icons{
+text-align: center;
+    }
+    .project{
+        align-items: center;
+    }
+}
+
+
 

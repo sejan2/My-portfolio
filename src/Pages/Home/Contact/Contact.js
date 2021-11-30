@@ -10,7 +10,7 @@ const Contact = () => {
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
-                    <h2 className="c-title">Let's discuss about project</h2>
+                    <h5 className="c-title">Let's discuss about project</h5>
                     <div className="c-info">
                         <div className="c-info-item">
                             <img src={Phone} alt="" className="c-icon" />

@@ -7,7 +7,7 @@ const Myproject = () => {
     const { services } = useProjects([])
     console.log(services)
     return (
-        <div style={{ background: 'black', padding: '40px' }}>
+        <div id="project" style={{ background: 'black', padding: '40px' }}>
             <h1 style={{ color: "turquoise" }}>My Latest Project</h1>
             <Container>
                 <Row md={3} sm={1}>

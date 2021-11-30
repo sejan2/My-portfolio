@@ -1,5 +1,8 @@
 import React from 'react';
+
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
+
 import useProjects from '../../../Hooks/useProjects';
 import './Detail.css'
 
@@ -15,12 +18,12 @@ const DetailService = () => {
         <div className="app">
             <div className="details">
                 <div className="big-img">
-                    <img src={newSelect?.img[1]} alt="" />
+                    <img src={newSelect?.img[0]} alt="" />
                 </div>
                 <div className="box">
                     <div className="row">
-                        <h2>Nike shoe</h2>
-                        <span>$344</span>
+                        <h2>{newSelect?.title}</h2>
+                        <span>{newSelect?.description}</span>
                     </div>
                     <div className="thumb">
                         {newSelect?.img?.map((pics) => (
@@ -32,7 +35,9 @@ const DetailService = () => {
                         <img src={newSelect?.img[1]} alt="" />
                         <img src={newSelect?.img[2]} alt="" /> */}
                     </div>
-                    <button className="cards">Add to cart</button>
+
+                    <Link to={''}><button className="cards">Live Link</button ></Link>
+                    <p>{newSelect?.link}</p>
                 </div>
             </div>
         </div>

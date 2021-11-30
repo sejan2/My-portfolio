@@ -41,6 +41,12 @@ const Heading = () => {
                                     About
                                 </Nav.Link>
                                 <Nav.Link
+                                    href='#project'
+                                    to="/blogs"
+                                    className="mr-md-5" style={{ color: "turquoise" }} active>
+                                    Projects
+                                </Nav.Link>
+                                <Nav.Link
                                     as={Link}
                                     to="/blogs"
                                     className="mr-md-5" style={{ color: "turquoise" }} active>
@@ -55,7 +61,7 @@ const Heading = () => {
 
                     <Row>
                         <Col sm={12} md={6}>
-                            <div style={{ marginTop: '130px', marginLeft: '20px' }}>
+                            <div className="project" style={{ marginTop: '130px', marginLeft: '20px' }}>
                                 <div className="nav-icons" style={{ marginLeft: '80px' }}>
                                     <ul>
                                         <li>
@@ -74,7 +80,7 @@ const Heading = () => {
                                 </div>
                                 <h1 style={{ fontSize: "2em" }}>WEB <span style={{ color: 'turquoise' }}>DEVELOPER</span></h1>
 
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit inventore voluptates optio cum eum molestiae at harum doloribus sed iure.</p>
+                                <p>Hey,I am Seejan Mahmud.I have Experience with HTML,CSS,React Js,Mongo Db,JavaScript,Node Js.Desire to position of web development  as well as to gain confidence and express my  innovative creative skills for self and company growth.</p>
                                 <div className="header-button">
                                     <a href={resume} download={resume} className="btn btn-outline">Download Resume</a>
                                 </div>

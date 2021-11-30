@@ -22,6 +22,7 @@ function App() {
           <Route path="/service/:id">
             <DetailService></DetailService>
           </Route>
+
         </Switch>
       </Router>
     </div>

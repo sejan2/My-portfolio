@@ -3,7 +3,7 @@ import { Card, Col } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 
 const ShowProject = (props) => {
-    const { img, id } = props.service;
+    const { img, id, title } = props.service;
     return (
         <div>
             <Col style={{ padding: '20px' }}>
@@ -12,15 +12,15 @@ const ShowProject = (props) => {
                     <Card.Body>
                         <div className="d-flex justify-content-between">
                             <div>
-                                <Card.Title>Niche Project</Card.Title>
+                                <Card.Title>{title}</Card.Title>
 
                                 {/* <Card.Title>70</Card.Title> */}
                             </div>
-                            {/* <div>
-                            <Card.Text>
-                                $70/night
-                            </Card.Text>
-                        </div> */}
+
+                            {/* <Card.Text>
+                                {description}
+                            </Card.Text> */}
+
                         </div>
                     </Card.Body>
                     <NavLink as={Link}

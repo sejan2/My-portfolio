@@ -17,7 +17,7 @@ const About = () => {
             </div>
             <div className="a-right">
                 <div style={{ textAlign: 'left' }}>
-                    <h1 className="a-title"><span style={{ color: 'red' }}>About</span> Me</h1>
+                    <h1 className="a-title"><span style={{ color: 'turquoise' }}>About</span> Me</h1>
                     <p className="a-sub">
                         It is a long established fact that a reader will be distracted by the
                         readable content.
