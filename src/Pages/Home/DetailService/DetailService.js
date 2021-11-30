@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { useParams } from 'react-router';
-import { Link } from 'react-router-dom';
+
 
 import useProjects from '../../../Hooks/useProjects';
 import './Detail.css'
@@ -15,14 +15,14 @@ const DetailService = () => {
 
 
     return (
-        <div className="app">
+        <div className="app" style={{ background: 'black' }}>
             <div className="details">
                 <div className="big-img">
                     <img src={newSelect?.img[0]} alt="" />
                 </div>
                 <div className="box">
                     <div className="row">
-                        <h2>{newSelect?.title}</h2>
+                        <h2 style={{ color: 'turquoise' }}>{newSelect?.title}</h2>
                         <span>{newSelect?.description}</span>
                     </div>
                     <div className="thumb">
@@ -36,8 +36,8 @@ const DetailService = () => {
                         <img src={newSelect?.img[2]} alt="" /> */}
                     </div>
 
-                    <Link to={''}><button className="cards">Live Link</button ></Link>
-                    <p>{newSelect?.link}</p>
+                    <a href={newSelect?.link}><button className="cards">Live Link</button ></a>
+
                 </div>
             </div>
         </div>

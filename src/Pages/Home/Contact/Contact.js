@@ -6,7 +6,7 @@ import './contact.css'
 
 const Contact = () => {
     return (
-        <div className="c" style={{ background: 'black', color: 'white' }}>
+        <div className="c" style={{ background: 'black', color: 'white' }} id="contact">
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">

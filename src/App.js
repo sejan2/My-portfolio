@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import './App.css';
+import Blog from "./Pages/Home/Blog/Blog";
 import DetailService from "./Pages/Home/DetailService/DetailService";
 import Home from "./Pages/Home/Home/Home";
 
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/service/:id">
             <DetailService></DetailService>
+          </Route>
+          <Route path="/blog">
+            <Blog></Blog>
           </Route>
 
         </Switch>

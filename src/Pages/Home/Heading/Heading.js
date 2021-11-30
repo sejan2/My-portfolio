@@ -47,8 +47,13 @@ const Heading = () => {
                                     Projects
                                 </Nav.Link>
                                 <Nav.Link
+                                    href='#contact'
+                                    className="mr-md-5" style={{ color: "turquoise" }} active>
+                                    Contact
+                                </Nav.Link>
+                                <Nav.Link
                                     as={Link}
-                                    to="/blogs"
+                                    to="/blog"
                                     className="mr-md-5" style={{ color: "turquoise" }} active>
                                     Blog
                                 </Nav.Link>
