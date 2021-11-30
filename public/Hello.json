@@ -1,12 +1,23 @@
 [
     {
-        "id": "34",
-        "img": [
-            "https://i.ibb.co/LkgWMw2/2021-11-29-5.png",
-            "https://i.ibb.co/JqcvbkV/babe.jpg",
-            "https://i.ibb.co/vV4RLjW/men3.jpg",
-            "https://i.ibb.co/R7s7CPD/men1.jpg"
-        ]
+        "_id": "1",
+        "title": "Nike Shoes",
+        "src": [
+            "https://i.ibb.co/rH6zk9R/f.jpg",
+            "https://i.ibb.co/c2Q7LcB/g.jpg",
+            "https://i.ibb.co/myfKXkM/h.jpg",
+            "https://i.ibb.co/c2Q7LcB/g.jpg"
+        ],
+        "description": "UI/UX designing, html css tutorials",
+        "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
+        "price": 23,
+        "colors": [
+            "red",
+            "black",
+            "crimson",
+            "teal"
+        ],
+        "count": 1
     },
     {
         "id": "3",

@@ -3,11 +3,11 @@ import { Card, Col } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 
 const ShowProject = (props) => {
-    const { img, id } = props.service;
+    const { src, id } = props.service;
     return (
         <Col>
             <Card>
-                <Card.Img variant="top" src={img[0]} />
+                <Card.Img variant="top" src={src[0]} />
                 <Card.Body>
                     <div className="d-flex justify-content-between">
                         <div>
