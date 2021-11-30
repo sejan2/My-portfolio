@@ -12,7 +12,7 @@ const DetailService = () => {
         <div className="app">
             <div className="details">
                 <div className="big-img">
-                    <img src={newSelect?.img[1]} alt="" />
+                    <img src="{newSelect?.src[0]}" alt="" />
                 </div>
                 <div className="box">
                     <div className="row">
