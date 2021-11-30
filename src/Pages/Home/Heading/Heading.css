@@ -8,12 +8,7 @@
     margin: 0%;
     padding: 0%;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
+
 .logo{
     font-size: 30px;
     text-decoration: none;
@@ -22,22 +17,12 @@ nav{
     padding-top: 10px;
     padding-left: 10%;
 }
-.nav-links{
-    text-align: right;
-    background: turquoise;
-    padding: 10px 30px;
-    border-bottom-left-radius: 18px;
+.imges{
+    border-left: 8px solid turquoise;
+    border-top:  8px solid turquoise;
 }
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px 25px;
-}
-.nav-links ul li a{
-    color: wheat;
-    text-decoration: none;
-    font-size: 18px;
-}
+
+
 .nav-icons{
     color: turquoise;
 }
@@ -49,7 +34,7 @@ nav{
 .nav-icons ul li{
     width: 50px;
     height:50px;
-    border: 1px solid red;
+    border: 1px solid turquoise;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -64,7 +49,10 @@ nav{
     text-decoration: none;
 }
 .btn-outline{
-border: 2px solid red;
+border: 2px solid rgb(0, 195, 255);
 border-radius: 30px;
+}
+.navs{
+    background-color:'turquoise'
 }
 

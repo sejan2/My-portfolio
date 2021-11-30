@@ -4,15 +4,18 @@ import useProjects from '../../../Hooks/useProjects';
 import './Detail.css'
 
 const DetailService = () => {
+
     const { services } = useProjects();
     const { id } = useParams();
     const newSelect = services?.find((service) => service.id === id)
     console.log(newSelect)
+
+
     return (
         <div className="app">
             <div className="details">
                 <div className="big-img">
-                    <img src="{newSelect?.src[0]}" alt="" />
+                    <img src={newSelect?.img[1]} alt="" />
                 </div>
                 <div className="box">
                     <div className="row">
@@ -20,7 +23,14 @@ const DetailService = () => {
                         <span>$344</span>
                     </div>
                     <div className="thumb">
-                        <img src={newSelect?.img} alt="" />
+                        {newSelect?.img?.map((pics) => (
+                            <img src={pics} alt="" />
+                        )
+
+                        )}
+                        {/* <img src={newSelect?.img[0]} alt="" />
+                        <img src={newSelect?.img[1]} alt="" />
+                        <img src={newSelect?.img[2]} alt="" /> */}
                     </div>
                     <button className="cards">Add to cart</button>
                 </div>
