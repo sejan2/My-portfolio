@@ -1,36 +1,32 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
+import { FaFacebookF } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
+import { FaTwitter } from 'react-icons/fa'
 const Footer = () => {
     return (
         <div style={{ color: 'white', background: '#13171f', padding: '20px' }}>
             <Row>
-                <Col sm={4}>
-                    <h4 style={{ color: 'turquoise' }}>Product</h4>
-                    <ul className="list-unstyled" style={{ textDecoration: 'none' }}>
-                        <a style={{ textDecoration: 'none' }} href="#/"><li>Best Service</li></a>
-                        <a style={{ textDecoration: 'none' }} href="#/"><li>Live Site</li></a>
-                        <a style={{ textDecoration: 'none' }} href="#/"><li>Phone no.</li></a>
-                        <a style={{ textDecoration: 'none' }} href="#/"><li>Email Address</li></a>
+                <h2 style={{ color: 'turquoise' }}>SEEJAN MAHMUD</h2>
+                <Col md={12} className="nav-icons">
+
+                    <ul>
+                        <li>
+                            <a href="https://web.facebook.com/sejan.ahmed.948"><FaFacebookF /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/see_juuh/"><FaInstagram /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com"><FaTwitter /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.github.com/sejan2"><FaLinkedin /></a>
+                        </li>
                     </ul>
                 </Col>
-                <Col sm={12} md={4}>
-                    <h4 style={{ color: 'turquoise' }}>All list</h4>
-                    <ul className="list-unstyled" style={{ textDecoration: 'none' }}>
-                        <a style={{ textDecoration: 'none' }} href="#/"><li>Best Products</li></a>
-                        <a style={{ textDecoration: 'none' }} href="#/"><li>My Portfolio</li></a>
-                        <a style={{ textDecoration: 'none' }} href="#/"><li>Best Decisiom</li></a>
-                        <a style={{ textDecoration: 'none' }} href="#/"><li>Contact Info</li></a>
-                    </ul>
-                </Col>
-                <Col sm={4}>
-                    <h4 style={{ color: 'turquoise' }}>list</h4>
-                    <ul className="list-unstyled" style={{ textDecoration: 'none' }}>
-                        <a style={{ textDecoration: 'none' }} href="#/"><li>Benefits</li></a>
-                        <a style={{ textDecoration: 'none' }} href="#/"><li>My Portfolio</li></a>
-                        <a style={{ textDecoration: 'none' }} href="#/"><li>Good Decisiom</li></a>
-                        <a style={{ textDecoration: 'none' }} href="#/"><li>Contact Info</li></a>
-                    </ul>
-                </Col>
+                <p>Copyright © All right reserved by Seejan Mahmud</p>
             </Row>
 
         </div>

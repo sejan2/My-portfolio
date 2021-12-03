@@ -9,7 +9,9 @@
             "https://i.ibb.co/D9gwhWq/2021-11-30-18.png"
         ],
         "description": "User can order his favorite products from the website and he/she can see his/her order list and they also see our payment system.",
-        "link": "https://niche-portal.web.app/"
+        "link": "https://niche-portal.web.app/",
+        "link1": "https://github.com/sejan2/assignment-12-client",
+        "link2": "https://github.com/sejan2/assignment-12server"
     },
     {
         "id": "3",
@@ -21,7 +23,9 @@
             "https://i.ibb.co/C9knVf3/2021-11-30-22.png"
         ],
         "description": "Functional travel agency web appplication using MERN stack. Users can book their trips and view their order details and cancel order on my orders page.",
-        "link": "https://tourism-auth.web.app/"
+        "link": "https://tourism-auth.web.app/",
+        "link1": "https://github.com/sejan2/assignment11-client",
+        "link2": "https://github.com/sejan2/assignment11-server"
     },
     {
         "id": "4",
@@ -33,6 +37,7 @@
             "https://i.ibb.co/bPM2c3w/2021-11-30-26.png"
         ],
         "description": "This website where I use fancy carousel.l. This is hospital related website where you can get our best service and also you can early booking for services and your favorite doctors .",
-        "link": "https://assignment-auth-31d55.web.app/"
+        "link": "https://assignment-auth-31d55.web.app/",
+        "link1": "https://github.com/sejan2/assignment"
     }
 ]

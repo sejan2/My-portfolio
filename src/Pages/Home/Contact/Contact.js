@@ -29,8 +29,8 @@ const Contact = () => {
                 <div className="c-right">
                     <div style={{ width: '60%' }}>
                         <h3 className="c-desc">
-                            <b>What’s your story?</b> Get in touch. Always available for the
-                            job if the right project comes along. me.
+                            <b style={{ color: 'turquoise' }}>What’s your story?</b> Get in touch. Always available for the
+                            job if the right project comes along me.
                         </h3>
                     </div>
                     <form action="https://formsubmit.co/sejansiju2020@gmail.com" method="POST">

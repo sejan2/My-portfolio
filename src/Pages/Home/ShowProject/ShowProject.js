@@ -12,7 +12,7 @@ const ShowProject = (props) => {
                     <Card.Body>
                         <div className="d-flex justify-content-between">
                             <div>
-                                <Card.Title>{title}</Card.Title>
+                                <Card.Title style={{ color: 'turquoise' }}>{title}</Card.Title>
 
                                 {/* <Card.Title>70</Card.Title> */}
                             </div>

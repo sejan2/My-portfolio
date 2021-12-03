@@ -1,5 +1,5 @@
 .c {
-    height: 100vh;
+    /* height: vh; */
     position: relative;
   }
   
@@ -122,5 +122,8 @@
     }
     textarea {
       width: 90%;
+    }
+    .c{
+      height: 70vh;
     }
   }

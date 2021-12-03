@@ -36,7 +36,9 @@ const DetailService = () => {
                         <img src={newSelect?.img[2]} alt="" /> */}
                     </div>
 
-                    <a href={newSelect?.link}><button className="cards">Live Link</button ></a>
+                    <a href={newSelect?.link} style={{ marginRight: '5px' }}><button className="btn-success">Live Link</button ></a>
+                    <a href={newSelect?.link1} style={{ marginRight: '5px' }}><button className="btn-success">Client code</button ></a>
+                    <a href={newSelect?.link2} style={{ marginRight: '5px' }}><button className="btn-success">Server code</button ></a>
 
                 </div>
             </div>
