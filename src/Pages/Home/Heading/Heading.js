@@ -62,14 +62,15 @@ const Heading = () => {
 
                     <Row>
                         <Col sm={12} md={6}>
-                            <div className="project" style={{ marginTop: '130px', marginLeft: '20px' }} >
+                            <div className="project" style={{ marginTop: '130px', textAlign: 'left' }} >
 
                                 <div data-aos="fade-down"
                                     data-aos-easing="linear"
                                     data-aos-duration="1000">
-                                    <h1 style={{ fontSize: "2em" }}>WEB <span style={{ color: 'turquoise' }}>DEVELOPER</span></h1>
+                                    <h4>HI THERE!</h4>
+                                    <h1 style={{ fontSize: "2em" }}>I AM<span style={{ color: 'turquoise' }}> SEEJAN MAHMUD</span></h1>
 
-                                    <p>Hey,I am Seejan Mahmud.I have Experience with HTML,CSS,React Js,Mongo Db,JavaScript,Node Js.Desire to position of web development  as well as to gain confidence and express my  innovative creative skills for self and company growth.</p>
+                                    <p>I'm a front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.I have Experience with HTML,CSS,React Js,Mongo Db,JavaScript,Node Js.Desire to position of web development  as well as to gain confidence and express my  innovative creative skills for self and company growth.</p>
                                     <div className="header-button">
                                         <a href="https://drive.google.com/file/d/1LbnZmgGzmCtgC4z9-UAV29N-8FV5J7of/view?usp=sharing" className="btn btn-outline">Download Resume</a>
                                     </div>

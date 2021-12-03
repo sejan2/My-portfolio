@@ -18,15 +18,12 @@ const About = () => {
             <div className="a-right">
                 <div style={{ textAlign: 'left' }}>
                     <h1 className="a-title"><span style={{ color: 'turquoise' }}>About</span> Me</h1>
-                    <p className="a-sub">
-                        It is a long established fact that a reader will be distracted by the
-                        readable content.
-                    </p>
+                    <h5 className="a-sub">
+                        Hey,I am Seejan.I am from Dhaka,Bangladesh. I always love to explore new things.
+                    </h5>
                     <p className="a-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+                        I am interested in Web Development. I love to code and always try to make new websites with creative ideas.
+                        I'm passionate to do coding because I love this field. I make fully mobile responsive and real-world websites. I make front-end and back-end websites also.
                     </p>
                 </div>
                 <div className="a-award">

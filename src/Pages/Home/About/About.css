@@ -80,7 +80,7 @@
       .a{
         flex-direction: column;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 0px;
       }
   
       .a-left {
@@ -91,10 +91,14 @@
         height: 30vh;
       }
   
-      .a-card.bg, .a-award {
+      /* .a-card.bg, .a-award {
         display: none;
-      }
+      } */
   
+      .a-award-texts{
+        margin-left: 15px;
+        margin-top: 5px;
+      }
       .a-right{
         padding: 20px;
       }
